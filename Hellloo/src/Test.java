@@ -6,6 +6,6 @@ public class Test {
 
     // Наш собственный метод для приветствия
     public static void printWelcome() {
-        System.out.println("--- Менеджер задач на Java ---");
+
     }
 }
