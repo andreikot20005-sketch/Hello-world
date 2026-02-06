@@ -1,6 +1,11 @@
 public class Test {
-    static void main(String[] args) {
-System.out.println(" hello world");
+    // Входная точка
+    public static void main() {
+        printWelcome(); // Вызов нашего метода
+    }
 
+    // Наш собственный метод для приветствия
+    public static void printWelcome() {
+        System.out.println("--- Менеджер задач на Java ---");
     }
 }
